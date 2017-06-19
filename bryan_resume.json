@@ -1,0 +1,302 @@
+{
+meta: {
+format: "FRESH@0.6.0",
+version: "0.4.0"
+},
+name: "Bryan Maass",
+info: {
+label: "Software Engineer",
+characterClass: "Software Engineer",
+brief: "Bryan brings his "get shit done" mindset from Co-founding Fetchh to improve products and experiences.",
+image: "bryan.png",
+quote: "â€œThe essence of strategy is choosing what not to do.â€ â€“ Michael Porter"
+},
+contact: {
+website: "http://escherize.com",
+phone: "626 404 8410",
+email: "bryan.maass@gmail.com"
+},
+location: {
+address: "Bryan Maass 3809 South Congress, ",
+city: "Austin",
+region: "Texas",
+code: "78704",
+country: "USA"
+},
+SKIPME_project: {
+title: "TextMeTheLink.com (TMTL ldt.)",
+category: "SaaS",
+role: "Creator",
+url: "http://textmethelink.com",
+start: "2016-03",
+repo: "Private",
+description: "web-app for helping mobile app creators reach their customers",
+summary: "web-app for helping app makers reach customers",
+keywords: [
+"ClojureScript,",
+"Clojure,",
+"SaaS",
+"SideBiz"
+],
+media: [ ]
+},
+projects: [
+{
+title: "Tracks",
+category: "Open Source",
+role: "Author",
+url: "https://github.com/escherize/tracks#rationale",
+start: "2016-03",
+repo: "https://gitlab.com/escherize/tracks",
+description: "Library to grapple with large maps whose shapes are uncomfortable to reason about.",
+summary: "Library to grapple with large maps whose shapes are uncomfortable to reason about.",
+keywords: [
+"Data,",
+"Simplicity,",
+"Clojure,",
+"ClojureScript"
+],
+media: [ ]
+},
+{
+title: "bengine",
+category: "Open Source",
+role: "Author",
+url: "http://escherize.com/bengine",
+start: "2016-03",
+repo: "http://escherize.com/bengine",
+description: "data leveraging blog generator with few moving parts.",
+summary: "data leveraging blog generator with few moving parts.",
+keywords: [
+"Data,",
+"ClojureScript,",
+"Node"
+],
+media: [ ]
+},
+{
+title: "CLJS Fiddle",
+category: "Open Source",
+role: "Creator",
+url: "http://escherize.com/cljsfiddle",
+start: "2016-03",
+repo: "https://gitlab.com/escherize/cljsfiddle",
+description: "site for exploring and sharing interactive ClojureScript snippets.",
+summary: "site for exploring and sharing interactive ClojureScript snippets.",
+keywords: [
+"ClojureScript,",
+"Reagent,",
+"Parinfer"
+]
+},
+{
+title: "Blog",
+category: "personal",
+role: "Creator",
+url: "http://escherize.com",
+start: "2016-02",
+description: "My programming blog. Powered by Org-Mode.",
+summary: "Conceptualization, design, development, deployment, and content.",
+SKIPME_keywords: [
+"Org Mode,",
+"Jekyll,",
+"HTML 5,",
+"JavaScript,",
+"pages.github.io"
+]
+}
+],
+social: [
+{
+label: "GitHub",
+network: "GitHub",
+user: "escherize",
+url: "https://github.com/escherize"
+},
+{
+label: "GitLab",
+network: "GitLab",
+user: "escherize",
+url: "https://gitlab.com/escherize"
+}
+],
+employment: {
+summary: "Battle tested Clojure developer.",
+history: [
+{
+employer: "Group Nine Media",
+url: "http://www.groupninemedia.com/",
+position: "Frontend Software Engineer",
+summary: "International media conglomerate",
+start: "2016-05-01",
+end: "present",
+keywords: [ ],
+highlights: [
+"Incorperated customer-driven startup processes for the switchboard product",
+"Fixed numerous broken-windows around release process, CI, and automated code formatting"
+]
+},
+{
+employer: "ROKT",
+url: "https://ROKT.com",
+position: "Senior Data Engineer Contractor",
+summary: "Transactional marketing startup",
+start: "2015-03-01",
+end: "2016-04-01",
+keywords: [ ],
+highlights: [
+"Mentored junior developers on Clojure best practices, style, and team culture",
+"Designed implemented and maintained self-serve UI for Ad APIs which lead to 80% fewer support requests",
+"Lead multiple workshops ranging from Emacs, Higher Order Functions, and re-frame"
+]
+},
+{
+employer: "Fetchh.io",
+url: "http://www.startupdaily.net/2016/03/zoom2u-acquires-demand-shipping-startup-fetchh/",
+position: "Technical Co-Founder + CTO",
+summary: "On-demand logistics service and the easiest way to pack and post items",
+start: "2014-03-01",
+end: "2015-04-01",
+keywords: [ ],
+highlights: [
+"Designed, developed, and deployed entire SPA, Clojure backend, and Postgres infrastructure",
+"Rolled an analytics platform to measure user behavior (sql queries + Google Analytics + Intercom.io)",
+"Reverse engineered postage carrier APIs and placed thousands of shipments",
+"Crafted a tracking system to automatically inform Fetchh customers about the status of their 3,000+ shipments",
+"Sent highly customized marketing through Etsy's in-app messaging protocol",
+"Pitched Fetchh to investors, raising a $150k Angel Round"
+]
+},
+{
+employer: "Staples Inc. (Staples SparX)",
+url: "https://Staples.com",
+position: "Software Engineer",
+summary: "Applied machine learning branch of Staples Inc.",
+start: "2013-03-01",
+end: "2014-02-15",
+keywords: [ ],
+highlights: [
+"Lead developer for the SparX reporting platform",
+"Improved SparX's A/B testing platform, releasing it 3 months ahead of schedule"
+]
+}
+]
+},
+education: {
+summary: "Studying the principles of computation.",
+level: "degree",
+degree: "Bachelor of Science",
+history: [
+{
+institution: "University of California at Davis",
+title: "Bachelor of Science",
+url: "https://cs.ucdavis.edu/",
+start: "2009",
+end: "2013"
+}
+]
+},
+skills: {
+sets: [
+{
+name: "Backend Development",
+level: "Master",
+skills: [
+"Clojure,",
+"Postgres,",
+"leiningen,",
+"oh-my-zsh,",
+"clojure.spec,",
+"property based testing"
+]
+},
+{
+name: "Frontend Development",
+level: "Advanced",
+skills: [
+"ClojureScript,",
+"Re-Frame,",
+"datascript,",
+"websockets,",
+"Semantic UI,",
+"CSS,",
+"JS,"
+]
+},
+{
+name: "Dev Ops",
+level: "Advanced",
+skills: [
+"Ubuntu,",
+"ssh,",
+"lein,",
+"nrepl,",
+"bash,",
+"Jenkins"
+]
+},
+{
+name: "Emacs",
+level: "Master",
+skills: [
+"magit,",
+"cider,",
+"org-mode,",
+"paredit,",
+"projectile,",
+"helm"
+]
+}
+],
+list: [ ]
+},
+testimonials: [
+{
+name: "Will Jensen",
+flavor: "professional",
+quote: "My time working with Bryan to build, grow, and sell Fetchh has given me great insight into his abilities as a leader and thinker. Bryan has an ability to develop lean strategies that develop and grow products fast. His ability to iterate makes him an asset to any company and I would jump at the opportunity to work with him again.",
+private: false
+},
+{
+name: "Mike Thompson",
+flavor: "professional",
+quote: "Bryan has a deep knowledge of re-frame. I worked with him on a port to the JVM, which was a great success. It was also when I was tossing around ideas with Bryan that the concept of reg-sub arrived.",
+private: false
+}
+],
+writing: [ ],
+reading: [ ],
+service: [ ],
+speaking: [
+{
+title: "Simplifying Clojure Data with Tracks",
+role: "Speaker",
+event: "Sydney Clojure Group",
+location: "Sydney, Australia",
+date: "2016",
+summary: "http://escherize.com/tracks_talk"
+},
+{
+title: "CLJS Fiddle (https://youtu.be/FDRBTXfFOhw)",
+role: "Speaker",
+event: "ReactJS Sydney",
+location: "Sydney, Australia",
+date: "2016",
+summary: "http://escherize.com/cljsfiddle_talk"
+},
+{
+title: "Clojure, RethinkDB, and You",
+role: "Speaker",
+event: "Sydney Clojure Group",
+location: "Sydney, Australia",
+date: "2016",
+summary: "http://escherize.com/rethinkdb_talk"
+}
+],
+recognition: [ ],
+references: [ ],
+languages: [ ],
+extracurricular: [ ],
+governance: [ ],
+interests: [ ]
+}

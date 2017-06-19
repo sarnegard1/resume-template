@@ -1,0 +1,121 @@
+/* some style */
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
+
+body{
+  height: auto;
+  font-family: 'Crimson Text', serif;
+  line-height: 1.4;
+  font-size: 12pt;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+.resume h1 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: black
+}
+
+.resume h3 {
+  font-weight: normal;
+  font-size: 14pt;
+  margin-bottom: 0;
+  margin-top: 12px;
+  color: black;
+  text-transform: none;
+  font-family: 'Crimson Text', serif;
+
+}
+.resume h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
+  text-transform: uppercase;
+  margin:0;
+  color: #3f51b5;
+}
+
+.resume h2.reco, h2.edu {
+  margin-top: 40px;
+}
+
+
+q,
+blockquote {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.resume a {
+  color: black;
+}
+
+.resume .summary {
+  margin-top: 8px;
+}
+.resume .quote {
+  margin-top: 1em;
+}
+
+.job-list {
+  padding-left: 20pt;
+}
+
+div.contact p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.dates {
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: right;
+  float: right;
+  align-self: bottom;
+  padding-top:9px;
+}
+
+p.tagline {
+  margin: 0;
+}
+
+span.company {
+  font-weight: bold;
+}
+
+span.title {
+  font-style: italic;
+}
+.skill-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+p.recommender::before{
+  content: "\2013  "
+}
+
+p.recommender{
+  /*font-weight: bold;*/
+  font-style: italic;
+  margin-top: 0;
+}
+
+
+/* Structure  */
+
+.left-column {
+  float: left;
+  width: 75%;
+  height: auto;
+  /*border: 1px solid lightgray;*/
+  padding: 20px 50px 0 20px;
+}
+
+.right-column {
+  float: left;
+  width: 25%;
+  padding: 20px 15px 0 0px;
+  /*border: 1px dashed lightgray;*/
+}
